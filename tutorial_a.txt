@@ -1,3 +1,4 @@
 text: i wanna eat banana
 text2: but i want strawberries more..
 do you really love me?
+text3: i love you more.. 
