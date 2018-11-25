@@ -1,1 +1,1 @@
-git 파일을 만들어보자 
+started to learn git!! 

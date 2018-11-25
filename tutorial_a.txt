@@ -1,0 +1,2 @@
+text: i wanna eat banana
+text2: but i want strawberries more..
