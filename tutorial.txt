@@ -1,2 +1,5 @@
 started to learn git!! 
+kind of interesting
 this is change from master branch
+this is change from newone branch
+
