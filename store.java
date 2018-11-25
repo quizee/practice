@@ -12,7 +12,7 @@ public class store {
 		
 		try{
 			
-			// object.dat 파일의 객체 아웃풋스트림을 생성한다.
+			
 			fos = new FileOutputStream(Menu_file_name);
 			oos = new ObjectOutputStream(fos);
 
@@ -23,7 +23,7 @@ public class store {
 			e.printStackTrace();
 		
 		}finally{
-			//스트림 닫아주기 
+			 
 			if(fos != null) try{fos.close();}catch(IOException e){}
 			if(oos != null) try{oos.close();}catch(IOException e){}	
 		}
@@ -46,7 +46,7 @@ public class store {
 			e.printStackTrace();
 		}finally{
 			
-			// 스트림을 닫아준다.
+			
 			if(fis != null) try{fis.close();}catch(IOException e){;}
 			if(ois != null) try{ois.close();}catch(IOException e){;}
 			return (HashMap<Integer, String>)ois.readObject();
